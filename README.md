@@ -25,3 +25,28 @@ The program uses **lists, loops, decision structures, and file I/O** to manage a
 The program works with a text file called `accounts.txt`.  
 Each line must follow this format:
 
+
+### Example:
+alice,50
+bob,100
+
+- When running the program, just enter the username (e.g., `alice`).  
+- If the account exists, the program will look it up and allow you to update points.  
+- If it doesn’t exist, the program will automatically create it for you.  
+
+---
+
+## ▶️ How to Run
+1. Make sure `accounts.txt` is in the same folder as the program (optional).  
+2. Run the Python program:  
+   ```bash
+   python account_manager.py
+Follow the prompts:
+
+Enter your username (no spaces allowed).
+
+If the account exists, you can update its points.
+
+If it doesn’t exist, the program will create it for you.
+
+Points are updated and saved to accounts.txt.
